@@ -11,7 +11,7 @@ import UnitsToggle from './units-toggle';
 const searchTimeoutInMs = 600;
 
 export default function App() {
-  const [location, setLocation] = React.useState('Tehran');
+  const [location, setLocation] = React.useState('Ahmedabad');
   const [debouncedSearchTerm, setDebouncedSearchTerm] = React.useState('');
   const [isSearching, setIsSearching] = React.useState(false);
   const [units, setUnits] = React.useState('metric');

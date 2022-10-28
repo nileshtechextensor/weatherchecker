@@ -20,7 +20,7 @@ const Search = ({ isSearching, onLocationChange }) => {
           ></path>
         </svg>
         <input
-        defaultValue={'tehran'}
+        defaultValue={'Ahmedabad'}
           type="search"
           role="search"
           onChange={onLocationChange}
